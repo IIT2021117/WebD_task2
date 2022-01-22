@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WebD task1</title>
+		<meta charset="UTF-8" />
+		<meta name="description" content="This is my first task for WebD." />
+		<style>
+      body{
+        background-color:white;
+        background-image: url("images-4.jpeg");
+        background-size: cover;
+        height: 790.02px;
+       
+      }
+      div.card {
+          background-color:hsl(180, 37%, 80%);
+        }
+        img{
+            border: 3px double
+        }
+      
+      .card {
+        width: 80%;
+        border-radius: 30px;
+        right:10%;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+       
+      }
+      @font-face{
+          font-family: 'Signika', sans-serif;
+          src:url(https://fonts.google.com/share?selection.family=Signika:wght@600)
+      }
+			h1 {
+				color: rgb(8, 112, 119);text-align: center;
+                font-family:'Signika', sans-serif ;
+			}
+            img{
+                border-radius:50%;
+                display: block;
+                margin-right: auto;
+                margin-left: auto;
+                width: 20%
+            }
+      hr{
+          margin-left: auto;
+          margin-right: auto;
+          width: 80%;
+          
+      }
+      
+      
+            h3 {text-align: center;
+                color:rgb(4, 64, 68)}
+      ul {
+        text-align: center;
+        list-style-position: inside;
+         }
+      table td {border-spacing:10px;}
+      td{text-align:center;}
+      
+      table.myskills,th{
+        border: 1px solid black;
+        border-collapse:collapse;
+      }
+      td.myskills1{
+        border: 1px solid black;
+      }
+      td.message{
+          text-align:left;
+          
+
+      }
+      
+      table.contact{
+          margin-left: auto;
+          border-spacing: 100px 0px;
+          border-collapse: seperate;
+
+      }
+      
+      
+      
+    </style>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+	</head>
+	<body>
+    <div class="card"  >
+
+    
+		<h1>Rishika Rajput</h1>
+         <img src="/Users/rishikarajput/Jai WebD/b6ea861110197d11efab5d8b3c357f8c.jpg" alt="Github profile pic"><br>
+   
+    <table rules="cols" style="width:70%" align="center">
+      <tr>
+        <td><b>Email:</b>iit2021117@iita.ac.in</td>
+         <td><b>Phone:</b>xxxxxxxxxx</td>
+        <td><b>My Github URL:</b><a href="https://github.com/IIT2021117">IIT2021117</a>
+    </table><hr>
+      
+      <h3><b>Education</b></h3>
+    <ul>
+			<li>Passed high school from Modern Public School,Bhiwadi,Rajasthan</li><br>
+			<li>Currently pursuing B.Tech in Information Technology from Indian Institute of Information Technology,Allahabad</li>
+		</ul>
+     <hr> 
+		<h3>Skills</h3>
+     <table align="center" class="myskills">
+        <tr class="myskills1">
+          <th>Language</th>
+          <th>Skill</th>
+        </tr>
+			  <tr>
+        <td class="myskills1"><b>HTML</b></td>
+				<td class="myskills1" >★★★★☆</td>
+			  </tr>
+			<tr>
+        <td class="myskills1"><b>CSS</b></td>
+				<td class="myskills1">★★★☆☆</td>
+			</tr>
+			<tr >
+        <td class="myskills1"><b>Javascript</b></td>
+				<td class="myskills1">★☆☆☆☆</td>
+		  </tr>
+		</table>
+      <hr>
+      <h3>Contact Me</h3>
+      <div class="form-center">
+        <table class="contact">
+          <tr>
+            <td>
+            <form class="form-inline"               action="/action_page.php">
+        <label for="name">Your Name:  </label>
+        <input type "text" id="name" name="name" placeholder="Enter your name"><br><br>
+        </td>
+            <td rowspan="2" class="message"><label>Your Message:  </label>
+              <textarea name="name" placeholder="Enter your message"></textarea></td></tr>
+          <tr>
+       <td>
+         <label for="email">Your email id:</label>
+         <input type="email" id="email" name="email" placeholder="Enter your email id"><br><br></td>
+            <td>&nbsp;
+            </td></tr></table>
+        </div>
+        
+        
+      
+      
+	</body>
+</html>
